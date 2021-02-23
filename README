@@ -1,0 +1,18 @@
+To compile:
+$ g++ -std=c++11 -stdlib=libc++ -c *.cpp
+
+To link on MacOS:
+$  g++ -framework OpenGL -framework GLUT *.o -o maze
+
+To link on Linux (not tested):
+$  g++ -lGL -lGLU -lglut *.o -o maze
+
+To link on other OSes see:
+https://web.eecs.umich.edu/~sugih/courses/eecs487/glut-howto/
+
+To run:
+$ ./maze <optional_maze_file>
+
+
+
+
